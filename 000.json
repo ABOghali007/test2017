@@ -1,5 +1,9 @@
-{
-  "AdsController": {
+  {
+    "AppRedirect": {
+      "status": false,
+      "redirect_link": "https://play.google.com/store/apps/details?id=net.andromo.dev540689.app533265"
+    },
+    "AdsController": {
     "BannerNetwork": "fan",
     "InterstitialNetwork": "",
     "RewardNetwork": "",

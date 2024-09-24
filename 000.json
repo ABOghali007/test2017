@@ -1,1080 +1,2434 @@
-  {
-    "AppRedirect": {
-      "status": false,
-      "redirect_link": "https://play.google.com/store/apps/details?id=net.andromo.dev540689.app524149"
+{
+  "AdsController": {
+    "BannerNetwork": "fan",
+    "InterstitialNetwork": "",
+    "RewardNetwork": "",
+    "NativeNetwork": "",
+    "IntervalClick": 6,
+    "AdMob_Banner": "ca-app-pub-3940256099942544/6300978111",
+    "AdMob_InterstitialAd": "ca-app-pub-3940256099942544/1033173712",
+    "AdMob_RewardAd": "ca-app-pub-3940256099942544/5224354917",
+    "AdMob_Native": "ca-app-pub-3940256099942544/2247696110",
+    "Facebook_Banner": "510789566506517_646483866270419",
+    "Facebook_InterstitialAd": "510789566506517_646484142937058",
+    "Facebook_RewardAd": "",
+    "Facebook_Native": "510789566506517_911258293126307",
+    "Applovin_Banner": "aa1e0942bc74ad3d",
+    "Applovin_InterstitialAd": "275893111866372d",
+    "Applovin_RewardAd": "",
+    "Applovin_Native": "c5694df7ef61a4c4",
+    "RateTime": 40,
+    "OurAnOne": "https://server7.mp3quran.net/s_gmd/",
+    "OurAnTwe": "",
+    "OurAnTri": "",
+    "webUrl": "https://apps-islamic-2017.com/"
+  },
+  "playList": [
+    {
+      "title": "سورة الفاتحة",
+      "number": "1",
+      "titleEn": "Al-Fatihah",
+      "track": "audio/001.amr",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
     },
-    "AdsController": {
-      "BannerNetwork": "fan",
-      "InterstitialNetwork": "fan",
-      "RewardNetwork": "fan",
-      "NativeNetwork": "fan",
-      "IntervalClick": 4,
-
-      "AdMob_Banner": "ca-app-pub-3940256099942544/6300978111",
-      "AdMob_InterstitialAd": "ca-app-pub-3940256099942544/1033173712",
-      "AdMob_RewardAd": "ca-app-pub-3940256099942544/5224354917",
-      "AdMob_Native": "ca-app-pub-3940256099942544/2247696110",
-
-      "Facebook_Banner": "143386533567427_143386933567387",
-      "Facebook_InterstitialAd": "143386533567427_143387120234035",
-      "Facebook_RewardAd": "",
-      "Facebook_Native": "143386533567427_779430379963036",
-
-      "Applovin_Banner": "aa1e0942bc74ad3d",
-      "Applovin_InterstitialAd": "275893111866372d",
-      "Applovin_RewardAd": "",
-      "Applovin_Native": "c5694df7ef61a4c4",
-
-      "Unity_GameID": "4076500",
-      "Unity_Banner": "BannerAd",
-      "Unity_InterstitialAd": "InterstitialAd",
-      "Unity_RewardAd": "rewardedVideo",
-
-      
-
-      "OurAnOne": "https://download.tvquran.com/download/TvQuran.com__basit/",
-
-      "OurAnTwe": "https://download.tvquran.com/download/TvQuran.com__Abdulbasit_Warsh/",
-
-      "OurAnTri": "https://download.tvquran.com/download/TvQuran.com__basit_mjwd/",
-
-
-      "webUrl": "https://apps-islamic-2017.com/"
+    {
+      "title": "سورة البقرة",
+      "titleEn": "Al-Baqarah",
+      "number": "2",
+      "track": "audio/002.amr",
+      "Version": "286",
+      "Ico": "medina.png",
+      "locked": false
     },
-    "playList": [
-      {
-        "title": "سورة الفاتحة",
-        "number": "1",
-        "titleEn": "Al-Fatihah",
-        "track": "001.mp3",
-        "Version": "7",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة البقرة",
-        "titleEn": "Al-Baqarah",
-        "number": "2",
-        "track": "002.mp3",
-        "Version": "286",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة آل عمران",
-        "titleEn": "Al-Imran",
-        "number": "3",
-        "track": "003.mp3",
-        "Version": "200",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة النساء",
-        "titleEn": "An-Nisa",
-        "number": "4",
-        "track": "004.mp3",
-        "Version": "176",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة المائدة",
-        "titleEn": "Al-Maidah",
-        "number": "5",
-        "track": "005.mp3",
-        "Version": "120",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأنعام",
-        "titleEn": "Al-Anam",
-        "number": "6",
-        "track": "006.mp3",
-        "Version": "265",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأعراف",
-        "titleEn": "Al-Araf",
-        "number": "7",
-        "track": "007.mp3",
-        "Version": "206",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأنفال",
-        "titleEn": "Al-Anfal",
-        "number": "8",
-        "track": "008.mp3",
-        "Version": "75",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة التوبة",
-        "titleEn": "At-Taubah",
-        "number": "9",
-        "track": "009.mp3",
-        "Version": "129",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة يونس",
-        "titleEn": "Yunus",
-        "number": "10",
-        "track": "010.mp3",
-        "Version": "109",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة هود",
-        "titleEn": "Hood",
-        "number": "11",
-        "track": "011.mp3",
-        "Version": "123",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة يوسف",
-        "titleEn": "Yusuf",
-        "number": "12",
-        "track": "012.mp3",
-        "Version": "111",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الرّعد",
-        "titleEn": "Ar-Rad",
-        "number": "13",
-        "track": "013.mp3",
-        "Version": "43",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة إبراهيم",
-        "titleEn": "Ibrahim",
-        "number": "14",
-        "track": "014.mp3",
-        "Version": "52",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الحجر",
-        "titleEn": "Al-Hijr",
-        "number": "15",
-        "track": "015.mp3",
-        "Version": "99",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة النحل",
-        "titleEn": "An-Nahl",
-        "number": "16",
-        "track": "016.mp3",
-        "Version": "128",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الإسراء",
-        "titleEn": "Al-Isra",
-        "number": "17",
-        "track": "017.mp3",
-        "Version": "111",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الكهف",
-        "titleEn": "Al-Kahf",
-        "number": "18",
-        "track": "018.mp3",
-        "Version": "110",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة مريم",
-        "titleEn": "Maryam",
-        "number": "19",
-        "track": "019.mp3",
-        "Version": "98",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة طه",
-        "titleEn": "TaHa",
-        "number": "20",
-        "track": "020.mp3",
-        "Version": "135",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأنبياء",
-        "titleEn": "Al-Anbiya",
-        "number": "21",
-        "track": "021.mp3",
-        "Version": "112",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الحج",
-        "titleEn": "Al-Hajj",
-        "number": "22",
-        "track": "022.mp3",
-        "Version": "78",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة المؤمنون",
-        "titleEn": "Al-Muminun",
-        "number": "23",
-        "track": "023.mp3",
-        "Version": "118",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة النّور",
-        "titleEn": "An-Nur",
-        "number": "24",
-        "track": "024.mp3",
-        "Version": "64",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الفرقان",
-        "titleEn": "Al-Furqan",
-        "number": "25",
-        "track": "025.mp3",
-        "Version": "77",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الشعراء",
-        "titleEn": "Ash-Shuara",
-        "number": "26",
-        "track": "026.mp3",
-        "Version": "227",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة النمل",
-        "titleEn": "An-Naml",
-        "number": "27",
-        "track": "027.mp3",
-        "Version": "93",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة القصص",
-        "titleEn": "Al-Qasas",
-        "number": "28",
-        "track": "028.mp3",
-        "Version": "88",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة العنكبوت",
-        "titleEn": "Al-Ankabut",
-        "number": "29",
-        "track": "029.mp3",
-        "Version": "69",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الروم",
-        "titleEn": "ArRoom",
-        "number": "30",
-        "track": "030.mp3",
-        "Version": "60",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة لقمان",
-        "titleEn": "Luqman",
-        "number": "31",
-        "track": "031.mp3",
-        "Version": "34",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة السجدة",
-        "titleEn": "AsSajdah",
-        "number": "32",
-        "track": "032.mp3",
-        "Version": "30",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأحزاب",
-        "titleEn": "AlAhzab",
-        "number": "33",
-        "track": "033.mp3",
-        "Version": "73",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة سبإ",
-        "titleEn": "Saba",
-        "number": "34",
-        "track": "034.mp3",
-        "Version": "54",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة فاطر",
-        "titleEn": "Fatir",
-        "number": "35",
-        "track": "035.mp3",
-        "Version": "45",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة يس",
-        "titleEn": "YaSin",
-        "number": "36",
-        "track": "036.mp3",
-        "Version": "83",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الصّافّات",
-        "titleEn": "As-Saffat",
-        "number": "37",
-        "track": "037.mp3",
-        "Version": "182",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة ص",
-        "titleEn": "Sad",
-        "number": "38",
-        "track": "038.mp3",
-        "Version": "88",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الزمر",
-        "titleEn": "Az-Zumar",
-        "number": "39",
-        "track": "039.mp3",
-        "Version": "75",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة غافر",
-        "titleEn": "Ghafir",
-        "number": "40",
-        "track": "040.mp3",
-        "Version": "85",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة فصّلت",
-        "titleEn": "Fussilat",
-        "number": "41",
-        "track": "041.mp3",
-        "Version": "54",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الشورى",
-        "titleEn": "Ash-Shura",
-        "number": "42",
-        "track": "042.mp3",
-        "Version": "53",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الزخرف",
-        "titleEn": "Az-Zukhruf",
-        "number": "43",
-        "track": "043.mp3",
-        "Version": "89",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الدخان",
-        "titleEn": "Ad-Dukhan",
-        "number": "44",
-        "track": "044.mp3",
-        "Version": "59",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الجاثية",
-        "titleEn": "Al-Jathiya",
-        "number": "45",
-        "track": "045.mp3",
-        "Version": "37",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأحقاف",
-        "titleEn": "Al-Ahqaf",
-        "number": "46",
-        "track": "046.mp3",
-        "Version": "35",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة محمّـد",
-        "titleEn": "Muhammad",
-        "number": "47",
-        "track": "047.mp3",
-        "Version": "38",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الفتح",
-        "titleEn": "Al-Fath",
-        "number": "48",
-        "track": "048.mp3",
-        "Version": "29",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الحُـجُـرات",
-        "titleEn": "Al-Hujurat",
-        "number": "49",
-        "track": "049.mp3",
-        "Version": "18",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة ق",
-        "titleEn": "Qaf",
-        "number": "50",
-        "track": "050.mp3",
-        "Version": "45",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الذاريات",
-        "titleEn": "Az-Zariyat",
-        "number": "51",
-        "track": "051.mp3",
-        "Version": "60",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـطور",
-        "titleEn": "At-Tur",
-        "number": "52",
-        "track": "052.mp3",
-        "Version": "49",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـنحـم",
-        "titleEn": "An-Najm",
-        "number": "53",
-        "track": "053.mp3",
-        "Version": "62",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـقمـر",
-        "titleEn": "Al-Qamar",
-        "number": "54",
-        "track": "054.mp3",
-        "Version": "55",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـرحـمـن",
-        "titleEn": "Ar-Rahman",
-        "number": "55",
-        "track": "055.mp3",
-        "Version": "78",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الواقعة",
-        "titleEn": "Al-Waqiah",
-        "number": "56",
-        "track": "056.mp3",
-        "Version": "96",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الحـديد",
-        "titleEn": "Al-Hadid",
-        "number": "57",
-        "track": "057.mp3",
-        "Version": "29",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمجادلـة",
-        "titleEn": "Al-Mujadilah",
-        "number": "58",
-        "track": "058.mp3",
-        "Version": "22",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـحـشـر",
-        "titleEn": "Al-Hashr",
-        "number": "59",
-        "track": "059.mp3",
-        "Version": "24",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمـمـتـحنة",
-        "titleEn": "Al-Mumtahinah",
-        "number": "60",
-        "track": "060.mp3",
-        "Version": "13",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـصّـف",
-        "titleEn": "As-Saff",
-        "number": "61",
-        "track": "061.mp3",
-        "Version": "14",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـجـمـعـة",
-        "titleEn": "Al-Jumuah",
-        "number": "62",
-        "track": "062.mp3",
-        "Version": "11",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمنافقون",
-        "titleEn": "Al-Munafiqun",
-        "number": "63",
-        "track": "063.mp3",
-        "Version": "11",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـتغابن",
-        "titleEn": "At-Taghabun",
-        "number": "64",
-        "track": "064.mp3",
-        "Version": "18",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـطلاق",
-        "titleEn": "At-Talaq",
-        "number": "65",
-        "track": "065.mp3",
-        "Version": "12",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـتحريم",
-        "titleEn": "At-Tahrim",
-        "number": "66",
-        "track": "066.mp3",
-        "Version": "12",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـملك",
-        "titleEn": "Al-Mulk",
-        "number": "67",
-        "track": "067.mp3",
-        "Version": "30",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـقـلـم",
-        "titleEn": "Al-Qalam",
-        "number": "68",
-        "track": "068.mp3",
-        "Version": "52",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـحاقّـة",
-        "titleEn": "Al-Haqqah",
-        "number": "69",
-        "track": "069.mp3",
-        "Version": "52",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمعارج",
-        "titleEn": "Al-Maarij",
-        "number": "70",
-        "track": "070.mp3",
-        "Version": "44",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة نوح",
-        "titleEn": "Nooh",
-        "number": "71",
-        "track": "071.mp3",
-        "Version": "28",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الجن",
-        "titleEn": "Al-Jinn",
-        "number": "72",
-        "track": "072.mp3",
-        "Version": "28",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمـزّمّـل",
-        "titleEn": "Al-Muzzammil",
-        "number": "73",
-        "track": "073.mp3",
-        "Version": "20",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمّـدّثّـر",
-        "titleEn": "Al-Muddaththir",
-        "number": "74",
-        "track": "074.mp3",
-        "Version": "56",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـقـيامـة",
-        "titleEn": "Al-Qiyamah",
-        "number": "75",
-        "track": "075.mp3",
-        "Version": "40",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الإنسان",
-        "titleEn": "Al-Insan",
-        "number": "76",
-        "track": "076.mp3",
-        "Version": "31",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمرسلات",
-        "titleEn": "Al-Mursalat",
-        "number": "77",
-        "track": "077.mp3",
-        "Version": "50",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـنبإ",
-        "titleEn": "An-Naba",
-        "number": "78",
-        "track": "078.mp3",
-        "Version": "40",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـنازعات",
-        "titleEn": "An-Naziat",
-        "number": "79",
-        "track": "079.mp3",
-        "Version": "46",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة عبس",
-        "titleEn": "Abasa",
-        "number": "80",
-        "track": "080.mp3",
-        "Version": "42",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة التكوير",
-        "titleEn": "At-Takwir",
-        "number": "81",
-        "track": "081.mp3",
-        "Version": "29",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الانفطار",
-        "titleEn": "Al-Infitar",
-        "number": "82",
-        "track": "082.mp3",
-        "Version": "19",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة المطـفـفين",
-        "titleEn": "Al-Mutaffifin",
-        "number": "83",
-        "track": "083.mp3",
-        "Version": "36",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الانشقاق",
-        "titleEn": "Al-Inshiqaq",
-        "number": "84",
-        "track": "084.mp3",
-        "Version": "25",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة البروج",
-        "titleEn": "Al-Buruj",
-        "number": "85",
-        "track": "085.mp3",
-        "Version": "22",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـطارق",
-        "titleEn": "At-Tariq",
-        "number": "86",
-        "track": "086.mp3",
-        "Version": "17",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الأعـلى",
-        "titleEn": "Al-Ala",
-        "number": "87",
-        "track": "087.mp3",
-        "Version": "19",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الغاشـيـة",
-        "titleEn": "Al-Ghashiyah",
-        "number": "88",
-        "track": "088.mp3",
-        "Version": "26",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الفجر",
-        "titleEn": "Al-Fajr",
-        "number": "89",
-        "track": "089.mp3",
-        "Version": "30",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـبلد",
-        "titleEn": "Al-Balad",
-        "number": "90",
-        "track": "090.mp3",
-        "Version": "20",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـشـمـس",
-        "titleEn": "Ash-Shams",
-        "number": "91",
-        "track": "091.mp3",
-        "Version": "15",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة اللـيـل",
-        "titleEn": "Al-Lail",
-        "number": "92",
-        "track": "092.mp3",
-        "Version": "21",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الضـحى",
-        "titleEn": "Ad-Duha",
-        "number": "93",
-        "track": "093.mp3",
-        "Version": "11",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـشرح",
-        "titleEn": "Ash-Sharh",
-        "number": "94",
-        "track": "094.mp3",
-        "Version": "8",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـتين",
-        "titleEn": "At-Tin",
-        "number": "95",
-        "track": "095.mp3",
-        "Version": "8",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـعلق",
-        "titleEn": "Al-Alaq",
-        "number": "96",
-        "track": "096.mp3",
-        "Version": "19",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـقدر",
-        "titleEn": "Al-Qadr",
-        "number": "97",
-        "track": "097.mp3",
-        "Version": "5",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـبينة",
-        "titleEn": "Al-Baiyinah",
-        "number": "98",
-        "track": "098.mp3",
-        "Version": "8",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـزلزلة",
-        "titleEn": "Az-Zalzalah",
-        "number": "99",
-        "track": "099.mp3",
-        "Version": "8",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـعاديات",
-        "titleEn": "Al-Adiyat",
-        "number": "100",
-        "track": "100.mp3",
-        "Version": "11",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـقارعـة",
-        "titleEn": "Al-Qariah",
-        "number": "101",
-        "track": "101.mp3",
-        "Version": "11",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـتكاثر",
-        "titleEn": "At-Takathur",
-        "number": "102",
-        "track": "102.mp3",
-        "Version": "8",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـعصر",
-        "titleEn": "Al-Asr",
-        "number": "103",
-        "track": "103.mp3",
-        "Version": "3",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـهمزة",
-        "titleEn": "Al-Humazah",
-        "number": "104",
-        "track": "104.mp3",
-        "Version": "9",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـفيل",
-        "titleEn": "Al-Fil",
-        "number": "105",
-        "track": "105.mp3",
-        "Version": "5",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة قريش",
-        "titleEn": "Quraish",
-        "number": "106",
-        "track": "106.mp3",
-        "Version": "4",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة المـاعون",
-        "titleEn": "Al-Maun",
-        "number": "107",
-        "track": "107.mp3",
-        "Version": "7",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـكوثر",
-        "titleEn": "Al-Kauthar",
-        "number": "108",
-        "track": "108.mp3",
-        "Version": "3",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـكافرون",
-        "titleEn": "Al-Kafirun",
-        "number": "109",
-        "track": "109.mp3",
-        "Version": "6",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـنصر",
-        "titleEn": "An-Nasr",
-        "number": "110",
-        "track": "110.mp3",
-        "Version": "3",
-        "Ico": "medina.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـمسد",
-        "titleEn": "Al-Masad",
-        "number": "111",
-        "track": "111.mp3",
-        "Version": "5",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الإخلاص",
-        "titleEn": "Al-Ikhlas",
-        "number": "112",
-        "track": "112.mp3",
-        "Version": "4",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـفلق",
-        "titleEn": "Al-Falaq",
-        "number": "113",
-        "track": "113.mp3",
-        "Version": "5",
-        "Ico": "mac.png",
-        "locked": false
-      },
-      {
-        "title": "سورة الـناس",
-        "titleEn": "An-Nas",
-        "number": "114",
-        "track": "114.mp3",
-        "Version": "6",
-        "Ico": "mac.png",
-        "locked": false
-      }
-    ],
-    "AppsPromote": [
-      {
-        "name": "سعد الغامدي",
-        "packageName": "net.andromo.dev540689.app525669",
-        "icon": "https://play-lh.googleusercontent.com/yce_h9f5jlD1BvQ4_9zpMOWgmt0lJU7VweAZETamWXgOb9O5pKKIMsK7vZuGwJfvbi0=w240-h480-rw",
-        "download": "+100 K"
-      }
-    ]
-  }
+    {
+      "title": "سورة آل عمران",
+      "titleEn": "Al-Imran",
+      "number": "3",
+      "track": "audio/003.amr",
+      "Version": "200",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النساء",
+      "titleEn": "An-Nisa",
+      "number": "4",
+      "track": "audio/004.amr",
+      "Version": "176",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المائدة",
+      "titleEn": "Al-Maidah",
+      "number": "5",
+      "track": "audio/005.amr",
+      "Version": "120",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنعام",
+      "titleEn": "Al-Anam",
+      "number": "6",
+      "track": "audio/006.amr",
+      "Version": "265",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأعراف",
+      "titleEn": "Al-Araf",
+      "number": "7",
+      "track": "audio/007.amr",
+      "Version": "206",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنفال",
+      "titleEn": "Al-Anfal",
+      "number": "8",
+      "track": "audio/008.amr",
+      "Version": "75",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة التوبة",
+      "titleEn": "At-Taubah",
+      "number": "9",
+      "track": "audio/009.amr",
+      "Version": "129",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يونس",
+      "titleEn": "Yunus",
+      "number": "10",
+      "track": "audio/010.amr",
+      "Version": "109",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة هود",
+      "titleEn": "Hood",
+      "number": "11",
+      "track": "audio/011.amr",
+      "Version": "123",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يوسف",
+      "titleEn": "Yusuf",
+      "number": "12",
+      "track": "audio/012.amr",
+      "Version": "111",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الرّعد",
+      "titleEn": "Ar-Rad",
+      "number": "13",
+      "track": "audio/013.amr",
+      "Version": "43",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة إبراهيم",
+      "titleEn": "Ibrahim",
+      "number": "14",
+      "track": "audio/014.amr",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحجر",
+      "titleEn": "Al-Hijr",
+      "number": "15",
+      "track": "audio/015.amr",
+      "Version": "99",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النحل",
+      "titleEn": "An-Nahl",
+      "number": "16",
+      "track": "audio/016.amr",
+      "Version": "128",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإسراء",
+      "titleEn": "Al-Isra",
+      "number": "17",
+      "track": "audio/017.amr",
+      "Version": "111",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الكهف",
+      "titleEn": "Al-Kahf",
+      "number": "18",
+      "track": "audio/018.amr",
+      "Version": "110",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة مريم",
+      "titleEn": "Maryam",
+      "number": "19",
+      "track": "audio/019.amr",
+      "Version": "98",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة طه",
+      "titleEn": "TaHa",
+      "number": "20",
+      "track": "audio/020.amr",
+      "Version": "135",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنبياء",
+      "titleEn": "Al-Anbiya",
+      "number": "21",
+      "track": "audio/021.amr",
+      "Version": "112",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحج",
+      "titleEn": "Al-Hajj",
+      "number": "22",
+      "track": "audio/022.amr",
+      "Version": "78",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المؤمنون",
+      "titleEn": "Al-Muminun",
+      "number": "23",
+      "track": "audio/023.amr",
+      "Version": "118",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النّور",
+      "titleEn": "An-Nur",
+      "number": "24",
+      "track": "audio/024.amr",
+      "Version": "64",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفرقان",
+      "titleEn": "Al-Furqan",
+      "number": "25",
+      "track": "audio/025.amr",
+      "Version": "77",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الشعراء",
+      "titleEn": "Ash-Shuara",
+      "number": "26",
+      "track": "audio/026.amr",
+      "Version": "227",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النمل",
+      "titleEn": "An-Naml",
+      "number": "27",
+      "track": "audio/027.amr",
+      "Version": "93",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة القصص",
+      "titleEn": "Al-Qasas",
+      "number": "28",
+      "track": "audio/028.amr",
+      "Version": "88",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة العنكبوت",
+      "titleEn": "Al-Ankabut",
+      "number": "29",
+      "track": "audio/029.amr",
+      "Version": "69",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الروم",
+      "titleEn": "ArRoom",
+      "number": "30",
+      "track": "audio/030.amr",
+      "Version": "60",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة لقمان",
+      "titleEn": "Luqman",
+      "number": "31",
+      "track": "audio/031.amr",
+      "Version": "34",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة السجدة",
+      "titleEn": "AsSajdah",
+      "number": "32",
+      "track": "audio/032.amr",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأحزاب",
+      "titleEn": "AlAhzab",
+      "number": "33",
+      "track": "audio/033.amr",
+      "Version": "73",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة سبإ",
+      "titleEn": "Saba",
+      "number": "34",
+      "track": "audio/034.amr",
+      "Version": "54",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة فاطر",
+      "titleEn": "Fatir",
+      "number": "35",
+      "track": "audio/035.amr",
+      "Version": "45",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يس",
+      "titleEn": "YaSin",
+      "number": "36",
+      "track": "audio/036.amr",
+      "Version": "83",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الصّافّات",
+      "titleEn": "As-Saffat",
+      "number": "37",
+      "track": "audio/037.amr",
+      "Version": "182",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة ص",
+      "titleEn": "Sad",
+      "number": "38",
+      "track": "audio/038.amr",
+      "Version": "88",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الزمر",
+      "titleEn": "Az-Zumar",
+      "number": "39",
+      "track": "audio/039.amr",
+      "Version": "75",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة غافر",
+      "titleEn": "Ghafir",
+      "number": "40",
+      "track": "audio/040.amr",
+      "Version": "85",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة فصّلت",
+      "titleEn": "Fussilat",
+      "number": "41",
+      "track": "audio/041.amr",
+      "Version": "54",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الشورى",
+      "titleEn": "Ash-Shura",
+      "number": "42",
+      "track": "audio/042.amr",
+      "Version": "53",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الزخرف",
+      "titleEn": "Az-Zukhruf",
+      "number": "43",
+      "track": "audio/043.amr",
+      "Version": "89",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الدخان",
+      "titleEn": "Ad-Dukhan",
+      "number": "44",
+      "track": "audio/044.amr",
+      "Version": "59",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الجاثية",
+      "titleEn": "Al-Jathiya",
+      "number": "45",
+      "track": "audio/045.amr",
+      "Version": "37",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأحقاف",
+      "titleEn": "Al-Ahqaf",
+      "number": "46",
+      "track": "audio/046.amr",
+      "Version": "35",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة محمّـد",
+      "titleEn": "Muhammad",
+      "number": "47",
+      "track": "audio/047.amr",
+      "Version": "38",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفتح",
+      "titleEn": "Al-Fath",
+      "number": "48",
+      "track": "audio/048.amr",
+      "Version": "29",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحُـجُـرات",
+      "titleEn": "Al-Hujurat",
+      "number": "49",
+      "track": "audio/049.amr",
+      "Version": "18",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة ق",
+      "titleEn": "Qaf",
+      "number": "50",
+      "track": "audio/050.amr",
+      "Version": "45",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الذاريات",
+      "titleEn": "Az-Zariyat",
+      "number": "51",
+      "track": "audio/051.amr",
+      "Version": "60",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطور",
+      "titleEn": "At-Tur",
+      "number": "52",
+      "track": "audio/052.amr",
+      "Version": "49",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنحـم",
+      "titleEn": "An-Najm",
+      "number": "53",
+      "track": "audio/053.amr",
+      "Version": "62",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقمـر",
+      "titleEn": "Al-Qamar",
+      "number": "54",
+      "track": "audio/054.amr",
+      "Version": "55",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـرحـمـن",
+      "titleEn": "Ar-Rahman",
+      "number": "55",
+      "track": "audio/055.amr",
+      "Version": "78",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الواقعة",
+      "titleEn": "Al-Waqiah",
+      "number": "56",
+      "track": "audio/056.amr",
+      "Version": "96",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحـديد",
+      "titleEn": "Al-Hadid",
+      "number": "57",
+      "track": "audio/057.amr",
+      "Version": "29",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمجادلـة",
+      "titleEn": "Al-Mujadilah",
+      "number": "58",
+      "track": "audio/058.amr",
+      "Version": "22",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـحـشـر",
+      "titleEn": "Al-Hashr",
+      "number": "59",
+      "track": "audio/059.amr",
+      "Version": "24",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمـمـتـحنة",
+      "titleEn": "Al-Mumtahinah",
+      "number": "60",
+      "track": "audio/060.amr",
+      "Version": "13",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـصّـف",
+      "titleEn": "As-Saff",
+      "number": "61",
+      "track": "audio/061.amr",
+      "Version": "14",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـجـمـعـة",
+      "titleEn": "Al-Jumuah",
+      "number": "62",
+      "track": "audio/062.amr",
+      "Version": "11",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمنافقون",
+      "titleEn": "Al-Munafiqun",
+      "number": "63",
+      "track": "audio/063.amr",
+      "Version": "11",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتغابن",
+      "titleEn": "At-Taghabun",
+      "number": "64",
+      "track": "audio/064.amr",
+      "Version": "18",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطلاق",
+      "titleEn": "At-Talaq",
+      "number": "65",
+      "track": "audio/065.amr",
+      "Version": "12",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتحريم",
+      "titleEn": "At-Tahrim",
+      "number": "66",
+      "track": "audio/066.amr",
+      "Version": "12",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـملك",
+      "titleEn": "Al-Mulk",
+      "number": "67",
+      "track": "audio/067.amr",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقـلـم",
+      "titleEn": "Al-Qalam",
+      "number": "68",
+      "track": "audio/068.amr",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـحاقّـة",
+      "titleEn": "Al-Haqqah",
+      "number": "69",
+      "track": "audio/069.amr",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمعارج",
+      "titleEn": "Al-Maarij",
+      "number": "70",
+      "track": "audio/070.amr",
+      "Version": "44",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة نوح",
+      "titleEn": "Nooh",
+      "number": "71",
+      "track": "audio/071.amr",
+      "Version": "28",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الجن",
+      "titleEn": "Al-Jinn",
+      "number": "72",
+      "track": "audio/072.amr",
+      "Version": "28",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمـزّمّـل",
+      "titleEn": "Al-Muzzammil",
+      "number": "73",
+      "track": "audio/073.amr",
+      "Version": "20",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمّـدّثّـر",
+      "titleEn": "Al-Muddaththir",
+      "number": "74",
+      "track": "audio/074.amr",
+      "Version": "56",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقـيامـة",
+      "titleEn": "Al-Qiyamah",
+      "number": "75",
+      "track": "audio/075.amr",
+      "Version": "40",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإنسان",
+      "titleEn": "Al-Insan",
+      "number": "76",
+      "track": "audio/076.amr",
+      "Version": "31",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمرسلات",
+      "titleEn": "Al-Mursalat",
+      "number": "77",
+      "track": "audio/077.amr",
+      "Version": "50",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنبإ",
+      "titleEn": "An-Naba",
+      "number": "78",
+      "track": "audio/078.amr",
+      "Version": "40",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنازعات",
+      "titleEn": "An-Naziat",
+      "number": "79",
+      "track": "audio/079.amr",
+      "Version": "46",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة عبس",
+      "titleEn": "Abasa",
+      "number": "80",
+      "track": "audio/080.amr",
+      "Version": "42",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة التكوير",
+      "titleEn": "At-Takwir",
+      "number": "81",
+      "track": "audio/081.amr",
+      "Version": "29",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانفطار",
+      "titleEn": "Al-Infitar",
+      "number": "82",
+      "track": "audio/082.amr",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المطـفـفين",
+      "titleEn": "Al-Mutaffifin",
+      "number": "83",
+      "track": "audio/083.amr",
+      "Version": "36",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانشقاق",
+      "titleEn": "Al-Inshiqaq",
+      "number": "84",
+      "track": "audio/084.amr",
+      "Version": "25",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة البروج",
+      "titleEn": "Al-Buruj",
+      "number": "85",
+      "track": "audio/085.amr",
+      "Version": "22",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطارق",
+      "titleEn": "At-Tariq",
+      "number": "86",
+      "track": "audio/086.amr",
+      "Version": "17",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأعـلى",
+      "titleEn": "Al-Ala",
+      "number": "87",
+      "track": "audio/087.amr",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الغاشـيـة",
+      "titleEn": "Al-Ghashiyah",
+      "number": "88",
+      "track": "audio/088.amr",
+      "Version": "26",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفجر",
+      "titleEn": "Al-Fajr",
+      "number": "89",
+      "track": "audio/089.amr",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبلد",
+      "titleEn": "Al-Balad",
+      "number": "90",
+      "track": "audio/090.amr",
+      "Version": "20",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشـمـس",
+      "titleEn": "Ash-Shams",
+      "number": "91",
+      "track": "audio/091.amr",
+      "Version": "15",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة اللـيـل",
+      "titleEn": "Al-Lail",
+      "number": "92",
+      "track": "audio/092.amr",
+      "Version": "21",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الضـحى",
+      "titleEn": "Ad-Duha",
+      "number": "93",
+      "track": "audio/093.amr",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشرح",
+      "titleEn": "Ash-Sharh",
+      "number": "94",
+      "track": "audio/094.amr",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتين",
+      "titleEn": "At-Tin",
+      "number": "95",
+      "track": "audio/095.amr",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعلق",
+      "titleEn": "Al-Alaq",
+      "number": "96",
+      "track": "audio/096.amr",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقدر",
+      "titleEn": "Al-Qadr",
+      "number": "97",
+      "track": "audio/097.amr",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبينة",
+      "titleEn": "Al-Baiyinah",
+      "number": "98",
+      "track": "audio/098.amr",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـزلزلة",
+      "titleEn": "Az-Zalzalah",
+      "number": "99",
+      "track": "audio/099.amr",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعاديات",
+      "titleEn": "Al-Adiyat",
+      "number": "100",
+      "track": "audio/100.amr",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقارعـة",
+      "titleEn": "Al-Qariah",
+      "number": "101",
+      "track": "audio/101.amr",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتكاثر",
+      "titleEn": "At-Takathur",
+      "number": "102",
+      "track": "audio/102.amr",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعصر",
+      "titleEn": "Al-Asr",
+      "number": "103",
+      "track": "audio/103.amr",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـهمزة",
+      "titleEn": "Al-Humazah",
+      "number": "104",
+      "track": "audio/104.amr",
+      "Version": "9",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفيل",
+      "titleEn": "Al-Fil",
+      "number": "105",
+      "track": "audio/105.amr",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة قريش",
+      "titleEn": "Quraish",
+      "number": "106",
+      "track": "audio/106.amr",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المـاعون",
+      "titleEn": "Al-Maun",
+      "number": "107",
+      "track": "audio/107.amr",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكوثر",
+      "titleEn": "Al-Kauthar",
+      "number": "108",
+      "track": "audio/108.amr",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكافرون",
+      "titleEn": "Al-Kafirun",
+      "number": "109",
+      "track": "audio/109.amr",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنصر",
+      "titleEn": "An-Nasr",
+      "number": "110",
+      "track": "audio/110.amr",
+      "Version": "3",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمسد",
+      "titleEn": "Al-Masad",
+      "number": "111",
+      "track": "audio/111.amr",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإخلاص",
+      "titleEn": "Al-Ikhlas",
+      "number": "112",
+      "track": "audio/112.amr",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفلق",
+      "titleEn": "Al-Falaq",
+      "number": "113",
+      "track": "audio/113.amr",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـناس",
+      "titleEn": "An-Nas",
+      "number": "114",
+      "track": "audio/114.amr",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    }
+  ],
+  "playQuran": [
+    {
+      "title": "سورة الفاتحة",
+      "number": "1",
+      "titleEn": "Al-Fatihah",
+      "track": "001.mp3",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة البقرة",
+      "titleEn": "Al-Baqarah",
+      "number": "2",
+      "track": "002.mp3",
+      "Version": "286",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة آل عمران",
+      "titleEn": "Al-Imran",
+      "number": "3",
+      "track": "003.mp3",
+      "Version": "200",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النساء",
+      "titleEn": "An-Nisa",
+      "number": "4",
+      "track": "004.mp3",
+      "Version": "176",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المائدة",
+      "titleEn": "Al-Maidah",
+      "number": "5",
+      "track": "005.mp3",
+      "Version": "120",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنعام",
+      "titleEn": "Al-Anam",
+      "number": "6",
+      "track": "006.mp3",
+      "Version": "265",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأعراف",
+      "titleEn": "Al-Araf",
+      "number": "7",
+      "track": "007.mp3",
+      "Version": "206",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنفال",
+      "titleEn": "Al-Anfal",
+      "number": "8",
+      "track": "008.mp3",
+      "Version": "75",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة التوبة",
+      "titleEn": "At-Taubah",
+      "number": "9",
+      "track": "009.mp3",
+      "Version": "129",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يونس",
+      "titleEn": "Yunus",
+      "number": "10",
+      "track": "010.mp3",
+      "Version": "109",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة هود",
+      "titleEn": "Hood",
+      "number": "11",
+      "track": "011.mp3",
+      "Version": "123",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يوسف",
+      "titleEn": "Yusuf",
+      "number": "12",
+      "track": "012.mp3",
+      "Version": "111",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الرّعد",
+      "titleEn": "Ar-Rad",
+      "number": "13",
+      "track": "013.mp3",
+      "Version": "43",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة إبراهيم",
+      "titleEn": "Ibrahim",
+      "number": "14",
+      "track": "014.mp3",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحجر",
+      "titleEn": "Al-Hijr",
+      "number": "15",
+      "track": "015.mp3",
+      "Version": "99",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النحل",
+      "titleEn": "An-Nahl",
+      "number": "16",
+      "track": "016.mp3",
+      "Version": "128",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإسراء",
+      "titleEn": "Al-Isra",
+      "number": "17",
+      "track": "017.mp3",
+      "Version": "111",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الكهف",
+      "titleEn": "Al-Kahf",
+      "number": "18",
+      "track": "018.mp3",
+      "Version": "110",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة مريم",
+      "titleEn": "Maryam",
+      "number": "19",
+      "track": "019.mp3",
+      "Version": "98",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة طه",
+      "titleEn": "TaHa",
+      "number": "20",
+      "track": "020.mp3",
+      "Version": "135",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأنبياء",
+      "titleEn": "Al-Anbiya",
+      "number": "21",
+      "track": "021.mp3",
+      "Version": "112",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحج",
+      "titleEn": "Al-Hajj",
+      "number": "22",
+      "track": "022.mp3",
+      "Version": "78",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المؤمنون",
+      "titleEn": "Al-Muminun",
+      "number": "23",
+      "track": "023.mp3",
+      "Version": "118",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النّور",
+      "titleEn": "An-Nur",
+      "number": "24",
+      "track": "024.mp3",
+      "Version": "64",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفرقان",
+      "titleEn": "Al-Furqan",
+      "number": "25",
+      "track": "025.mp3",
+      "Version": "77",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الشعراء",
+      "titleEn": "Ash-Shuara",
+      "number": "26",
+      "track": "026.mp3",
+      "Version": "227",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة النمل",
+      "titleEn": "An-Naml",
+      "number": "27",
+      "track": "027.mp3",
+      "Version": "93",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة القصص",
+      "titleEn": "Al-Qasas",
+      "number": "28",
+      "track": "028.mp3",
+      "Version": "88",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة العنكبوت",
+      "titleEn": "Al-Ankabut",
+      "number": "29",
+      "track": "029.mp3",
+      "Version": "69",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الروم",
+      "titleEn": "ArRoom",
+      "number": "30",
+      "track": "030.mp3",
+      "Version": "60",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة لقمان",
+      "titleEn": "Luqman",
+      "number": "31",
+      "track": "031.mp3",
+      "Version": "34",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة السجدة",
+      "titleEn": "AsSajdah",
+      "number": "32",
+      "track": "032.mp3",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأحزاب",
+      "titleEn": "AlAhzab",
+      "number": "33",
+      "track": "033.mp3",
+      "Version": "73",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة سبإ",
+      "titleEn": "Saba",
+      "number": "34",
+      "track": "034.mp3",
+      "Version": "54",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة فاطر",
+      "titleEn": "Fatir",
+      "number": "35",
+      "track": "035.mp3",
+      "Version": "45",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة يس",
+      "titleEn": "YaSin",
+      "number": "36",
+      "track": "036.mp3",
+      "Version": "83",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الصّافّات",
+      "titleEn": "As-Saffat",
+      "number": "37",
+      "track": "037.mp3",
+      "Version": "182",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة ص",
+      "titleEn": "Sad",
+      "number": "38",
+      "track": "038.mp3",
+      "Version": "88",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الزمر",
+      "titleEn": "Az-Zumar",
+      "number": "39",
+      "track": "039.mp3",
+      "Version": "75",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة غافر",
+      "titleEn": "Ghafir",
+      "number": "40",
+      "track": "040.mp3",
+      "Version": "85",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة فصّلت",
+      "titleEn": "Fussilat",
+      "number": "41",
+      "track": "041.mp3",
+      "Version": "54",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الشورى",
+      "titleEn": "Ash-Shura",
+      "number": "42",
+      "track": "042.mp3",
+      "Version": "53",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الزخرف",
+      "titleEn": "Az-Zukhruf",
+      "number": "43",
+      "track": "043.mp3",
+      "Version": "89",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الدخان",
+      "titleEn": "Ad-Dukhan",
+      "number": "44",
+      "track": "044.mp3",
+      "Version": "59",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الجاثية",
+      "titleEn": "Al-Jathiya",
+      "number": "45",
+      "track": "045.mp3",
+      "Version": "37",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأحقاف",
+      "titleEn": "Al-Ahqaf",
+      "number": "46",
+      "track": "046.mp3",
+      "Version": "35",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة محمّـد",
+      "titleEn": "Muhammad",
+      "number": "47",
+      "track": "047.mp3",
+      "Version": "38",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفتح",
+      "titleEn": "Al-Fath",
+      "number": "48",
+      "track": "048.mp3",
+      "Version": "29",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحُـجُـرات",
+      "titleEn": "Al-Hujurat",
+      "number": "49",
+      "track": "049.mp3",
+      "Version": "18",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة ق",
+      "titleEn": "Qaf",
+      "number": "50",
+      "track": "050.mp3",
+      "Version": "45",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الذاريات",
+      "titleEn": "Az-Zariyat",
+      "number": "51",
+      "track": "051.mp3",
+      "Version": "60",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطور",
+      "titleEn": "At-Tur",
+      "number": "52",
+      "track": "052.mp3",
+      "Version": "49",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنحـم",
+      "titleEn": "An-Najm",
+      "number": "53",
+      "track": "053.mp3",
+      "Version": "62",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقمـر",
+      "titleEn": "Al-Qamar",
+      "number": "54",
+      "track": "054.mp3",
+      "Version": "55",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـرحـمـن",
+      "titleEn": "Ar-Rahman",
+      "number": "55",
+      "track": "055.mp3",
+      "Version": "78",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الواقعة",
+      "titleEn": "Al-Waqiah",
+      "number": "56",
+      "track": "056.mp3",
+      "Version": "96",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الحـديد",
+      "titleEn": "Al-Hadid",
+      "number": "57",
+      "track": "057.mp3",
+      "Version": "29",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمجادلـة",
+      "titleEn": "Al-Mujadilah",
+      "number": "58",
+      "track": "058.mp3",
+      "Version": "22",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـحـشـر",
+      "titleEn": "Al-Hashr",
+      "number": "59",
+      "track": "059.mp3",
+      "Version": "24",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمـمـتـحنة",
+      "titleEn": "Al-Mumtahinah",
+      "number": "60",
+      "track": "060.mp3",
+      "Version": "13",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـصّـف",
+      "titleEn": "As-Saff",
+      "number": "61",
+      "track": "061.mp3",
+      "Version": "14",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـجـمـعـة",
+      "titleEn": "Al-Jumuah",
+      "number": "62",
+      "track": "062.mp3",
+      "Version": "11",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمنافقون",
+      "titleEn": "Al-Munafiqun",
+      "number": "63",
+      "track": "063.mp3",
+      "Version": "11",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتغابن",
+      "titleEn": "At-Taghabun",
+      "number": "64",
+      "track": "064.mp3",
+      "Version": "18",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطلاق",
+      "titleEn": "At-Talaq",
+      "number": "65",
+      "track": "065.mp3",
+      "Version": "12",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتحريم",
+      "titleEn": "At-Tahrim",
+      "number": "66",
+      "track": "066.mp3",
+      "Version": "12",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـملك",
+      "titleEn": "Al-Mulk",
+      "number": "67",
+      "track": "067.mp3",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقـلـم",
+      "titleEn": "Al-Qalam",
+      "number": "68",
+      "track": "068.mp3",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـحاقّـة",
+      "titleEn": "Al-Haqqah",
+      "number": "69",
+      "track": "069.mp3",
+      "Version": "52",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمعارج",
+      "titleEn": "Al-Maarij",
+      "number": "70",
+      "track": "070.mp3",
+      "Version": "44",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة نوح",
+      "titleEn": "Nooh",
+      "number": "71",
+      "track": "071.mp3",
+      "Version": "28",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الجن",
+      "titleEn": "Al-Jinn",
+      "number": "72",
+      "track": "072.mp3",
+      "Version": "28",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمـزّمّـل",
+      "titleEn": "Al-Muzzammil",
+      "number": "73",
+      "track": "073.mp3",
+      "Version": "20",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمّـدّثّـر",
+      "titleEn": "Al-Muddaththir",
+      "number": "74",
+      "track": "074.mp3",
+      "Version": "56",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقـيامـة",
+      "titleEn": "Al-Qiyamah",
+      "number": "75",
+      "track": "075.mp3",
+      "Version": "40",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإنسان",
+      "titleEn": "Al-Insan",
+      "number": "76",
+      "track": "076.mp3",
+      "Version": "31",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمرسلات",
+      "titleEn": "Al-Mursalat",
+      "number": "77",
+      "track": "077.mp3",
+      "Version": "50",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنبإ",
+      "titleEn": "An-Naba",
+      "number": "78",
+      "track": "078.mp3",
+      "Version": "40",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنازعات",
+      "titleEn": "An-Naziat",
+      "number": "79",
+      "track": "079.mp3",
+      "Version": "46",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة عبس",
+      "titleEn": "Abasa",
+      "number": "80",
+      "track": "080.mp3",
+      "Version": "42",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة التكوير",
+      "titleEn": "At-Takwir",
+      "number": "81",
+      "track": "081.mp3",
+      "Version": "29",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانفطار",
+      "titleEn": "Al-Infitar",
+      "number": "82",
+      "track": "082.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المطـفـفين",
+      "titleEn": "Al-Mutaffifin",
+      "number": "83",
+      "track": "083.mp3",
+      "Version": "36",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانشقاق",
+      "titleEn": "Al-Inshiqaq",
+      "number": "84",
+      "track": "084.mp3",
+      "Version": "25",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة البروج",
+      "titleEn": "Al-Buruj",
+      "number": "85",
+      "track": "085.mp3",
+      "Version": "22",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطارق",
+      "titleEn": "At-Tariq",
+      "number": "86",
+      "track": "086.mp3",
+      "Version": "17",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأعـلى",
+      "titleEn": "Al-Ala",
+      "number": "87",
+      "track": "087.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الغاشـيـة",
+      "titleEn": "Al-Ghashiyah",
+      "number": "88",
+      "track": "088.mp3",
+      "Version": "26",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفجر",
+      "titleEn": "Al-Fajr",
+      "number": "89",
+      "track": "089.mp3",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبلد",
+      "titleEn": "Al-Balad",
+      "number": "90",
+      "track": "090.mp3",
+      "Version": "20",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشـمـس",
+      "titleEn": "Ash-Shams",
+      "number": "91",
+      "track": "091.mp3",
+      "Version": "15",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة اللـيـل",
+      "titleEn": "Al-Lail",
+      "number": "92",
+      "track": "092.mp3",
+      "Version": "21",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الضـحى",
+      "titleEn": "Ad-Duha",
+      "number": "93",
+      "track": "093.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشرح",
+      "titleEn": "Ash-Sharh",
+      "number": "94",
+      "track": "094.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتين",
+      "titleEn": "At-Tin",
+      "number": "95",
+      "track": "095.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعلق",
+      "titleEn": "Al-Alaq",
+      "number": "96",
+      "track": "096.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقدر",
+      "titleEn": "Al-Qadr",
+      "number": "97",
+      "track": "097.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبينة",
+      "titleEn": "Al-Baiyinah",
+      "number": "98",
+      "track": "098.mp3",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـزلزلة",
+      "titleEn": "Az-Zalzalah",
+      "number": "99",
+      "track": "099.mp3",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعاديات",
+      "titleEn": "Al-Adiyat",
+      "number": "100",
+      "track": "100.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقارعـة",
+      "titleEn": "Al-Qariah",
+      "number": "101",
+      "track": "101.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتكاثر",
+      "titleEn": "At-Takathur",
+      "number": "102",
+      "track": "102.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعصر",
+      "titleEn": "Al-Asr",
+      "number": "103",
+      "track": "103.mp3",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـهمزة",
+      "titleEn": "Al-Humazah",
+      "number": "104",
+      "track": "104.mp3",
+      "Version": "9",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفيل",
+      "titleEn": "Al-Fil",
+      "number": "105",
+      "track": "105.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة قريش",
+      "titleEn": "Quraish",
+      "number": "106",
+      "track": "106.mp3",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المـاعون",
+      "titleEn": "Al-Maun",
+      "number": "107",
+      "track": "107.mp3",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكوثر",
+      "titleEn": "Al-Kauthar",
+      "number": "108",
+      "track": "108.mp3",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكافرون",
+      "titleEn": "Al-Kafirun",
+      "number": "109",
+      "track": "109.mp3",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنصر",
+      "titleEn": "An-Nasr",
+      "number": "110",
+      "track": "110.mp3",
+      "Version": "3",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمسد",
+      "titleEn": "Al-Masad",
+      "number": "111",
+      "track": "111.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإخلاص",
+      "titleEn": "Al-Ikhlas",
+      "number": "112",
+      "track": "112.mp3",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفلق",
+      "titleEn": "Al-Falaq",
+      "number": "113",
+      "track": "113.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـناس",
+      "titleEn": "An-Nas",
+      "number": "114",
+      "track": "114.mp3",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    }
+  ],
+  "List": [
+    {
+      "title": "سورة الفاتحة",
+      "number": "1",
+      "titleEn": "Al-Fatihah",
+      "track": "001.mp3",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنبإ",
+      "titleEn": "An-Naba",
+      "number": "78",
+      "track": "078.mp3",
+      "Version": "40",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنازعات",
+      "titleEn": "An-Naziat",
+      "number": "79",
+      "track": "079.mp3",
+      "Version": "46",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة عبس",
+      "titleEn": "Abasa",
+      "number": "80",
+      "track": "080.mp3",
+      "Version": "42",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة التكوير",
+      "titleEn": "At-Takwir",
+      "number": "81",
+      "track": "081.mp3",
+      "Version": "29",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانفطار",
+      "titleEn": "Al-Infitar",
+      "number": "82",
+      "track": "082.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المطـفـفين",
+      "titleEn": "Al-Mutaffifin",
+      "number": "83",
+      "track": "083.mp3",
+      "Version": "36",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الانشقاق",
+      "titleEn": "Al-Inshiqaq",
+      "number": "84",
+      "track": "084.mp3",
+      "Version": "25",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة البروج",
+      "titleEn": "Al-Buruj",
+      "number": "85",
+      "track": "085.mp3",
+      "Version": "22",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـطارق",
+      "titleEn": "At-Tariq",
+      "number": "86",
+      "track": "086.mp3",
+      "Version": "17",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الأعـلى",
+      "titleEn": "Al-Ala",
+      "number": "87",
+      "track": "087.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الغاشـيـة",
+      "titleEn": "Al-Ghashiyah",
+      "number": "88",
+      "track": "088.mp3",
+      "Version": "26",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الفجر",
+      "titleEn": "Al-Fajr",
+      "number": "89",
+      "track": "089.mp3",
+      "Version": "30",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبلد",
+      "titleEn": "Al-Balad",
+      "number": "90",
+      "track": "090.mp3",
+      "Version": "20",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشـمـس",
+      "titleEn": "Ash-Shams",
+      "number": "91",
+      "track": "091.mp3",
+      "Version": "15",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة اللـيـل",
+      "titleEn": "Al-Lail",
+      "number": "92",
+      "track": "092.mp3",
+      "Version": "21",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الضـحى",
+      "titleEn": "Ad-Duha",
+      "number": "93",
+      "track": "093.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـشرح",
+      "titleEn": "Ash-Sharh",
+      "number": "94",
+      "track": "094.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتين",
+      "titleEn": "At-Tin",
+      "number": "95",
+      "track": "095.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعلق",
+      "titleEn": "Al-Alaq",
+      "number": "96",
+      "track": "096.mp3",
+      "Version": "19",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقدر",
+      "titleEn": "Al-Qadr",
+      "number": "97",
+      "track": "097.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـبينة",
+      "titleEn": "Al-Baiyinah",
+      "number": "98",
+      "track": "098.mp3",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـزلزلة",
+      "titleEn": "Az-Zalzalah",
+      "number": "99",
+      "track": "099.mp3",
+      "Version": "8",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعاديات",
+      "titleEn": "Al-Adiyat",
+      "number": "100",
+      "track": "100.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـقارعـة",
+      "titleEn": "Al-Qariah",
+      "number": "101",
+      "track": "101.mp3",
+      "Version": "11",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـتكاثر",
+      "titleEn": "At-Takathur",
+      "number": "102",
+      "track": "102.mp3",
+      "Version": "8",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـعصر",
+      "titleEn": "Al-Asr",
+      "number": "103",
+      "track": "103.mp3",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـهمزة",
+      "titleEn": "Al-Humazah",
+      "number": "104",
+      "track": "104.mp3",
+      "Version": "9",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفيل",
+      "titleEn": "Al-Fil",
+      "number": "105",
+      "track": "105.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة قريش",
+      "titleEn": "Quraish",
+      "number": "106",
+      "track": "106.mp3",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة المـاعون",
+      "titleEn": "Al-Maun",
+      "number": "107",
+      "track": "107.mp3",
+      "Version": "7",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكوثر",
+      "titleEn": "Al-Kauthar",
+      "number": "108",
+      "track": "108.mp3",
+      "Version": "3",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـكافرون",
+      "titleEn": "Al-Kafirun",
+      "number": "109",
+      "track": "109.mp3",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـنصر",
+      "titleEn": "An-Nasr",
+      "number": "110",
+      "track": "110.mp3",
+      "Version": "3",
+      "Ico": "medina.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـمسد",
+      "titleEn": "Al-Masad",
+      "number": "111",
+      "track": "111.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الإخلاص",
+      "titleEn": "Al-Ikhlas",
+      "number": "112",
+      "track": "112.mp3",
+      "Version": "4",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـفلق",
+      "titleEn": "Al-Falaq",
+      "number": "113",
+      "track": "113.mp3",
+      "Version": "5",
+      "Ico": "mac.png",
+      "locked": false
+    },
+    {
+      "title": "سورة الـناس",
+      "titleEn": "An-Nas",
+      "number": "114",
+      "track": "114.mp3",
+      "Version": "6",
+      "Ico": "mac.png",
+      "locked": false
+    }
+  ],
+  "AppsPromote": [
+    {
+      "name": "سعد الغامدي",
+      "packageName": "net.andromo.dev540689.app525669",
+      "icon": "https://play-lh.googleusercontent.com/yce_h9f5jlD1BvQ4_9zpMOWgmt0lJU7VweAZETamWXgOb9O5pKKIMsK7vZuGwJfvbi0=w240-h480-rw",
+      "download": "+100 K"
+    }
+  ]
+}
